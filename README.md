@@ -4,4 +4,4 @@ This repository contains my experimental sandbox for Genetic Algorithms in JavaS
 # Pong
 For example, it is able to train on a clone of the Pong game for Atari 2600
 
-![](anims/pong.gif | width=250)
+<img src='anims/pong.gif'  width="250px" />
