@@ -37,7 +37,7 @@
   var replicateCount = Math.round(populationSize/eliteCount) - eliteRandomReduction;
 
   // pressure is eliteCount/populationSize;
-  var genCount = 15;
+  var genCount = 25;
   var maxSteps = 14000;
 
   // main loop
