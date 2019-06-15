@@ -20,9 +20,9 @@
   var ctx = canv.getContext('2d');
 
   // config
-  var numHiddenNeurons = 32;
-  var populationSize = 400;
-  var eliteCount = Math.round(populationSize*0.10);
+  var numHiddenNeurons = 64;
+  var populationSize = 600;
+  var eliteCount = Math.round(populationSize*0.20);
 
   var workerCount = 8;
   var fitnessRepeat = 1;
@@ -37,7 +37,7 @@
   var replicateCount = Math.round(populationSize/eliteCount) - eliteRandomReduction;
 
   // pressure is eliteCount/populationSize;
-  var genCount = 25;
+  var genCount = 100;
   var maxSteps = 14000;
 
   // main loop
