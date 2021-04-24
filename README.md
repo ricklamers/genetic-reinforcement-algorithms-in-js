@@ -14,7 +14,8 @@ Configure the genCount in the js/main.js to determine the amount of generations 
 After training ends (count == genCount) you can see the agent play agents the heuristic CPU agent by calling:
 
 ```javascript
-window.individualPlay(window.bestIndividual, 5) (change second argument to control the game speed).
+// Change second argument to control the game speed.
+window.individualPlay(window.bestIndividual, 5) 
 ```
 
 Have fun!
